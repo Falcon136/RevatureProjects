@@ -1,0 +1,74 @@
+<style>
+    header {
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    body {
+        background-color: rgb(193, 221, 247);
+    }
+    .about-p {
+        max-width: 750px;
+        margin-left: 10px;
+        padding-left: 7px;
+        border-left-size: 5px;
+        border-left-style: double;
+        border-left-color: purple;
+    }
+    footer {
+        margin-top: 50px;
+    }
+    .floating-footer {
+        display: inline-block;
+        width: 33%;
+        height: 100px;
+        vertical-align: top;
+        text
+    }
+    .footer-header {
+        font-weight: bold;
+        font-variant: small-caps;
+    }
+    .footer-left {
+        text-align: left;
+    }
+    .footer-center {
+        text-align: center;
+    }
+    .footer-right {
+        text-align: right;
+    }
+    .footer-links {
+        padding-left: 8px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .contact-form {
+        margin: auto;
+        width: 80%;
+    }
+    .contact-fieldset {
+        background-color: rgb(154, 175, 196);
+        border-radius: 12px;
+        padding: 5px;
+        margin: 50px;
+    }
+    .contact-legend {
+        background-color: rgb(178, 202, 226);
+        border: 1px solid black;
+        border-radius: 6px;
+        font-size: 1.5em;
+    }
+    .contact-form-guts {
+        padding: 10px 5px;
+    }
+    .contact-form-labels {
+        display: inline-block;
+        width: 75px;
+        vertical-align: top;
+        text-align: right;
+    }
+    #submit {
+        width: 100%;
+    }
+</style>

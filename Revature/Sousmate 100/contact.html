@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Sousmate</title>
+        <link rel= "stylesheet"
+            type= "text/CSS"
+            href= "style.css" />
+    </head>
+    <body>
+        <header>
+            <span style="font: italic small-caps bold 50px Georgia;">Soumate</span><br/> Home | Recipes | About | Contact Us
+        </header>
+
+        <form class="contact-form" action="" method="get">
+        <fieldset class="contact-fieldset">
+        <legend class="contact-legend">Contact Sousmate</legend>
+        <div class="contact-form-guts">
+            <div class="contact-form-el">
+                <label class="contact-form-labels" for="name">Name:</label>
+                <input id="name" type="text" name="name" title="Please enter your full name." size="30" required />
+            </div>
+            <div class="contact-form-el">
+                <label class="contact-form-labels" for="email">E-mail:</label>
+                <input id="email" type="email" name="email" title="Please eneter your e-mail address." size="30" required />
+            </div>
+            <div class="contact-form-el">
+                <label class="contact-form-labels" for="comment">Comment:</label>
+                <textarea id="comment" name="comment" title="We love to hear your thoughts. Write them down here!" required rows="5" cols="50" placeholder="Please write your comment here..."></textarea>
+            </div>
+            <div class="form-submit">
+                <label class="submit-button" for="submit"></label>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </div>
+        </fieldset>
+        </form>
+
+        <footer>
+            <div class="floating-footer footer-left">
+                <span class="footer-header">About Sousmate</span><br/>
+                <div class="footer-links">
+                    Home<br/>
+                    Recipes<br/>
+                    About<br/>
+                    Contact Us
+                </div>
+            </div>
+            <div class="floating-footer footer-center">
+                <span class="footer-header">Social</span>
+            </div>
+            <div class="floating-footer footer-right">
+                <span class="footer-header footer-right">Sousmate</span>
+            </div>
+            <div class="copyright">
+                &copy 2020 Max Falcon
+            </div>
+        </footer>
+    </body>
+</html>
